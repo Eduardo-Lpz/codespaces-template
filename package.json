@@ -1,13 +1,13 @@
 {
   "name": "educator-js-codespace-template",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Portfolio",
   "source": "src/index.html",
   "homepage": "http://eduardo-lpz.github.io/codespaces-template",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'http://eduardo-lpz.github.io/codespaces-template'",
+    "build-gh": "parcel build --public-url 'http://eduardo-lpz.github.io/portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
